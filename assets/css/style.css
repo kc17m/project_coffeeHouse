@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font: Special Elite; Exo, sans-serif;
+
+font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive;
+
+Farbe: #000, #fff; */
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url(../fonts/Special_Elite/SpecialElite-Regular.ttf);
+}
+@font-face {
+        font-family: "Exo";
+        src: url(../fonts/Exo/static/Exo-Bold.ttf);
+    }
+
+
+header, main, footer, nav {
+    font-family: 'Special Elite';
+}
+
+h1, h2, h3 {
+    font-family: "Exo";
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    line-height: 1.2rem;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+a {
+    color: #000;
+    text-decoration: unset;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;;
+    position: fixed;
+    height: 8vh;
+    z-index: 3;
+    background: #fff;
+
+}
+
+nav ul {
+    margin: 2% 0 2% 60%;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header a:hover {
+    text-decoration: underline;
+
+}
+
+/* main */
+
+section:nth-of-type(1) {
+    height: 92vh;
+    margin: 0;   
+}
+
+section:nth-of-type(1) figure {
+    position: relative;
+   }
+
+section:nth-of-type(1) article {
+    position: absolute;
+    top: 60%;
+
+}
+
+section:nth-of-type(2) {
+    height: 60vh;
+    background: url(../img/beans_icon.png) no-repeat center/cover;
+    
+}
+section:nth-of-type(2) article {
+    padding: 13% 60% 20% 10%;
+}
+
+/* .parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    z-index: -3;
+} */
+
+.parallax {
+    height: 100vh;
+}
+
+section:nth-of-type(3) {
+    background: url(../img/bridge_1.jpg) no-repeat center/cover;   
+    background-attachment: fixed;
+   
+}
+
+section:nth-of-type(5) {
+    background: url(../img/bridge_2.jpg) no-repeat center/cover;   
+    background-attachment: fixed;
+    
+}
+
+section:nth-of-type(7) {
+    background: url(../img/bridge_3.jpg) no-repeat center/cover;    
+    background-attachment: fixed;
+}
+
+section:nth-of-type(9) {
+    background: url(../img/bridge_4.jpeg) no-repeat center/cover;    
+    background-attachment: fixed;   
+}
+
+section:nth-of-type(4) {
+    height: 100vh;
+    width: 40%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+section:nth-of-type(4) figure {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.boxed {
+    width: 70%;
+    margin: 2% auto;
+    border: 1px solid #000;
+    padding: 2%;
+}
+
+#story, #catering, #cakes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: flex-end;
+    margin: 4% 14%;
+
+}
+
+#story figure {
+    width: 45%;
+    margin:  
+}
+
+#story article, #catering article, #cakes article {
+    width: 70%;
+}
+   
+
+#story article {
+    margin: 0 0 0 20%;
+}
+
+#catering article, #cakes article {
+    margin: 0 20% 0 0;
+}
+
+.button {
+    border: 1px solid #000;
+    width: 40%;
+    padding: 1% 0;
+    text-align: center;
+}
+
+
+
+#catering figure, #cakes figure {
+    width: 70%;
+    margin: 0 0 0 10%;
+}
+
+/* footer  */
+
+footer {
+    height: 30vh;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2%; 
+}
+
+footer .socialMedia {
+    width: 3%;
+}
+footer figure {
+    margin: 0 auto;
+}
+
+footer .today {
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
