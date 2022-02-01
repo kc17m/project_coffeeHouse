@@ -27,6 +27,7 @@ header, main, footer, nav {
 
 h1, h2, h3 {
     font-family: "Exo";
+    margin: 5% 0 0 0;
 }
 
 h1 {
@@ -72,33 +73,33 @@ nav ul {
 
 header a:hover {
     text-decoration: underline;
-
 }
 
 /* main */
 
-section:nth-of-type(1) {
-    height: 92vh;
-    margin: 0;   
-}
+section:nth-of-type(1)  {
+    background: url(../img/bg.jpeg) no-repeat center/cover;
+    height: 80vh;    
+ }
 
 section:nth-of-type(1) figure {
-    position: relative;
-   }
-
-section:nth-of-type(1) article {
-    position: absolute;
-    top: 40%;
-
+    width: 60%;
+    padding: 15% 0;
+   
 }
+
+
+
 
 section:nth-of-type(2) {
-    height: 60vh;
-    background: url(../img/beans_icon.png) no-repeat center/cover;
+   background: url(../img/beans_icon.png) no-repeat center/cover;
     
 }
+
 section:nth-of-type(2) article {
+    height: 60vh;
     padding: 13% 60% 20% 10%;
+    margin: auto 0;
 }
 
 /* .parallax {
@@ -203,22 +204,25 @@ section:nth-of-type(4) figure {
 /* footer  */
 
 footer {
-    height: 30vh;
     background: #000;
     color: #fff;
     text-align: center;
     padding: 2%; 
 }
 
+footer h2 {
+    margin: 0;
+}
+
 footer .socialMedia {
-    width: 3%;
+    width: 2%;
 }
 footer figure {
     margin: 0 auto;
 }
 
 footer .today {
-    width: 10%;
+    width: 8%;
 }
 
 
